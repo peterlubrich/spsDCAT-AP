@@ -12,3 +12,5 @@ Smart Parking Systems (SPS) represent an evolving and heterogeneous field of app
 This paper presents an approach to model metadata in the field of SPS. This metadata model intends to systematically describe the data offerings of such systems, e.g. their contents, coverage and technical representation. This work aims to set a baseline to improving the interoperability between actors in Parking Space Management, which currently rather rely on isolated data environments. A metadata model, enabling a common description of data offerings of individual SPS, may eventually foster an integrated ecosystem of data exchange in the parking sector. 
 The model is built upon established frameworks for describing metadata, namely the Resource Description Framework (RDF). For reasons of re-usability and interoperability, it is also adopting metadata vocabularies from the domains of Intelligent Transport Systems (ITS) and governmental data catalogues. Such a modelling has not been initiated for the domain of parking data, as the author can see. 
 
+This work is distributed under CC BY 4.0.
+
