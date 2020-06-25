@@ -1,5 +1,5 @@
 # spsDCAT-AP
-### A DCAT-AP extension for Metadata in National Access Points
+### A DCAT-AP extension for SPS data and information
 
 This project is about a draft Metadata specification to describe data and information offered by Smart Parking Systems (SPS).
 It particular, it is elaborated as an extension to the DCAT-AP Metadata specification. The working title for such an extension is “spsDCAT-AP” (DCAT-AP extension for Metadata for Smart Parking Systems ). 
