@@ -14,5 +14,5 @@ Vocabulary name | Used for Property | Used for Class | Usage note
 
 
 
-[Back to main page](https://eueip.github.io/napDCAT-AP/)
+[Back to main page](https://peterlubrich.github.io/spsDCAT-AP/)
 
