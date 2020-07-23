@@ -18,7 +18,7 @@ On this page, you will find available documents for the most-recent version of n
 
 [Specification](https://github.com/peterlubrich/spsDCAT-AP/tree/master/Specification)
 
-[Vocabularies](https://eueip.github.io/napDCAT-AP/vocabularies/)
+[Vocabularies](https://peterlubrich.github.io/spsDCAT-AP/vocabularies/) 
 
 [Example files](https://github.com/peterlubrich/spsDCAT-AP/tree/master/Examples) 
 
