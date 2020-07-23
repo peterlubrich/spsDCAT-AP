@@ -14,7 +14,7 @@ This work is distributed under CC BY 4.0.
 
 ### Documents
 
-On this page, you will find available documents for the most-recent version of napDCAT-AP:
+On this page, you will find available documents for the most-recent version of spsDCAT-AP:
 
 [Specification](https://github.com/peterlubrich/spsDCAT-AP/tree/master/Specification)
 
