@@ -2,7 +2,16 @@
 
 Vocabulary name | Used for Property | Used for Class | Usage note
 --------------- | ----------------- | -------------- | ----------
-[Dataset categories](https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varA) | theme/ category | dataset | This property refers to a category of the Dataset. A category is important for data seekers who are interested for a particular type of data. A Dataset may be associated with multiple themes. 
+[Dataset categories](https://peterlubrich.github.io/spsDCAT-AP/vocabularies/datasetcategories) | theme/ category | dataset | This property refers to a category of the Dataset. A category is important for data seekers who are interested for a particular type of data. A Dataset may be associated with multiple themes. 
+[SPS function]
+[SPS technology]
+[Parking process]
+[Data source]
+[state of data]
+[Parking segment]
+[Temporal scope]
+
+
 [Categories of access rights](https://eueip.github.io/napDCAT-AP/vocabularies/accessrights) | access rights | Dataset |  This property refers to the condition of use.  
 [Categories of frequencies](https://eueip.github.io/napDCAT-AP/vocabularies/frequencies) | frequency | Dataset | This property refers to the update rate of the data set. 
 [Categories of service types](https://eueip.github.io/napDCAT-AP/vocabularies/servicetypes) | service type category | Dataset | This property refers to the classification of a service, in accordance to possible services listed in EU Delegated Regulation 2017/1926. 
