@@ -1,4 +1,4 @@
-## napDCAT-AP Vocabularies
+## spsDCAT-AP Vocabularies
 
 Vocabulary name | Used for Property | Used for Class | Usage note
 --------------- | ----------------- | -------------- | ----------
