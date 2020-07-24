@@ -1,4 +1,4 @@
-## Categories of georeferencing methods
+## Categories of data sources
 
 Version:
 
@@ -15,13 +15,13 @@ Name | URI | Detail | URI
  |  |  | <a name="other"></a> other | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#other](#other)
 <a name="Entry/exitgatesatparkingfacilitites"></a> Entry/exit gates at parking facilitites  | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Entry/exitgatesatparkingfacilitites](#Entry/exitgatesatparkingfacilitites) | <a name=""></a>  | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#](#)
 <a name="Vehicles"></a> Vehicles | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Vehicles](#Vehicles) | <a name=""></a>  | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#](#)
-<a name="Crowdsourcing"></a> Crowd-sourcing (smartphone apps etc.) | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Crowd-sourcing](#Crowd-sourcing) |  |   
-<a name="Surveys"></a> Surveys | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Surveys](#Surveys) | <a name=""></a>  | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#](#)
-<a name="Transactiondata"></a> Transaction data | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Transactiondata](#Transactiondata) | <a name=""></a>  | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#](#)
-<a name="Manualdatacollection"></a> Manual data collection | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Manualdatacollection](#Manualdatacollection) | <a name=""></a>  | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#](#)
-<a name="Administrationdata"></a> Administration data | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Administrationdata](#Administrationdata) | <a name=""></a>  | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#](#)
-<a name="Acquired/3rdpartydata"></a> Acquired / 3rd party data | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Acquired/3rdpartydata](#Acquired/3rdpartydata) | <a name=""></a>  | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#](#)
-<a name="other"></a> other | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#other](#other) | "" | ""
+<a name="Crowdsourcing"></a> Crowd-sourcing (smartphone apps etc.) | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Crowd-sourcing](#Crowdsourcing) |  |   
+<a name="Surveys"></a> Surveys | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Surveys](#Surveys) |  |  
+<a name="Transactiondata"></a> Transaction data | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Transactiondata](#Transactiondata) |  |  
+<a name="Manualdatacollection"></a> Manual data collection | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Manualdatacollection](#Manualdatacollection) |  |  
+<a name="Administrationdata"></a> Administration data | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Administrationdata](#Administrationdata) |  |  
+<a name="Acquireddata"></a> Acquired / 3rd party data | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Acquireddata](#Acquireddata) |  |  
+<a name="other"></a> other | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#other](#other) |  |  
 
 
 [Back to vocabulary directory](https://peterlubrich.github.io/spsDCAT-AP/vocabularies/)
