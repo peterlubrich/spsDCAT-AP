@@ -7,7 +7,7 @@ Version:
 Name | URI | Detail | URI 
 ---- | --- | ------ | ---
 <a name="Sensors"></a> Sensors  | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#Sensors](#Sensors) | <a name="RFID"></a> RFID | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#RFID](#RFID)
- |  | <a name="magnet"></a> magnet | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#magnet](#magnet)
+ |  |  | <a name="magnet"></a> magnet | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#magnet](#magnet)
  |  | <a name="infrared"></a> infrared | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#infrared](#infrared)
  |  | <a name="radar"></a> radar | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#radar](#radar)
  |  | <a name="piezoelectric"></a> piezo-electric | [https://peterlubrich.github.io/spsDCAT-AP/vocabularies/dataSource#piezoelectric](#piezoelectric)
