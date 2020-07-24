@@ -1,4 +1,4 @@
-## Categories of termporal scopes
+## Categories of temporal scopes
 
 Version:
 
