@@ -79,7 +79,7 @@ Thus, no liability for correctness or completeness about the referenced data off
 
     <dcat:Distribution rdf:about="https://inrix.com/campaigns/sign-up/">
         <dcat:accessURL>https://inrix.com/campaigns/sign-up/</dcat:accessURL>
-        <dct:rights rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/accessrights#ContractAndFreeOfCharge">
+        <dct:rights rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/accessrights#ContractAndFee">
         <dct:description>To call any of our APIs, you need credentials which can be requested on this page.</dct:description>
         <dct:format rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/datasyntaxstandards#JSON">
         <dct:title>INRIX On-Street Parking API</dct:title>
