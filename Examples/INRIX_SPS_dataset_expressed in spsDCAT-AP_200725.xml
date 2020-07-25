@@ -38,7 +38,7 @@ Thus, no liability for correctness or completeness about the referenced data off
     </dcat:Catalog>
 
     <dcat:Dataset rdf:about="http://docs.inrix.com/parking/blocks/">
-  		<dct:title xml:lang="en">INRIX On-Street Parking</dct:title >
+  		<dct:title xml:lang="en">INRIX On-Street Parking</dct:title>
       <dct:description xml:lang="en">The On-Street Parking API is used to return metadata information on one or more city blocks.</dct:description >
       <dct:publisher>
         <foaf:Organization rdf:about="https://inrix.com/">
