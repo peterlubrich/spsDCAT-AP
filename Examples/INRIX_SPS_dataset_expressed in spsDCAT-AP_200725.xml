@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is a RDF example file for a SPS data offering according to the draft spsDCAT-AP specification
+It is fullfilling all mandatory and some recommended and optional elements from spsDCAT-AP.
+
+This example is referencing a real-life SPS data offering by the INRIX company.
+This dataset can be assessed here:
+https://inrix.com/products/inrix-parking/
+Note that the following information has been compiled by the author of spsDCAT-AP, without being approved by INRIX.
+Thus, no liability for correctness or completeness about the referenced data offering is taken.
+-->
+
+  <rdf:RDF
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:ext="http://trafficdata.se/dcatext/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:locn="http://www.w3.org/ns/locn"
+    xmlns:napdcatap="https://eueip.github.io/napDCAT-AP/">
+    xmlns:spsdcatap="https://peterlubrich.github.io/spsDCAT-AP/">
+
+    <dcat:Catalog rdf:about="https://inrix.com/products/inrix-parking/">
+      <dct:title xml:lang="en">INRIX Parking</dct:title>
+      <dct:description xml:lang="en">High Quality Parking Data and Innovative Technology To Make Parking Easy</dct:description>
+      <dcat:dataset rdf:resource="http://docs.inrix.com/parking/blocks/"/>
+      <foaf:homepage rdf:resource="https://inrix.com/products/inrix-parking/"/>
+      <dct:publisher>
+        <foaf:Organization rdf:about="https://inrix.com/">
+          <foaf:homepage>https://inrix.com/</foaf:homepage>
+          <foaf:name>INRIX, Inc.</foaf:name>
+          <foaf:mbox>support@inrix.com</foaf:mbox>
+        </foaf:Organization>
+      </dct:publisher>
+      <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+      <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    </dcat:Catalog>
+
+    <dcat:Dataset rdf:about="http://docs.inrix.com/parking/blocks/">
+  		<dct:title xml:lang="en">INRIX On-Street Parking</dct:title >
+      <dct:description xml:lang="en">The On-Street Parking API is used to return metadata information on one or more city blocks.</dct:description >
+      <dct:publisher>
+        <foaf:Organization rdf:about="https://inrix.com/">
+          <foaf:homepage>https://inrix.com/</foaf:homepage>
+          <foaf:name>INRIX, Inc.</foaf:name>
+          <foaf:mbox>support@inrix.com</foaf:mbox>
+        </foaf:Organization>
+      </dct:publisher>
+      <dcat:theme rdf:resource="https://peterlubrich.github.io/spsDCAT-AP/vocabularies/datasetCategories#Parkingsupply"/>
+  		<dcat:theme rdf:resource="https://peterlubrich.github.io/spsDCAT-AP/vocabularies/datasetCategories#Parkingdemand"/>
+  		<dcat:theme rdf:resource="https://peterlubrich.github.io/spsDCAT-AP/vocabularies/datasetCategories#Parkingfacilitylocation"/>
+  		<dcat:theme rdf:resource="https://peterlubrich.github.io/spsDCAT-AP/vocabularies/datasetCategories#Parkingfacilitycapacity"/>
+  		<dcat:theme rdf:resource="https://peterlubrich.github.io/spsDCAT-AP/vocabularies/datasetCategories#ChargesRates"/>
+  		<dcat:theme rdf:resource="https://peterlubrich.github.io/spsDCAT-AP/vocabularies/datasetCategories#AssignmentRestrictions"/>
+  		<dcat:theme rdf:resource="https://peterlubrich.github.io/spsDCAT-AP/vocabularies/datasetCategories#Probability"/>
+      <spsdcatap:spsfunction rdf:resource="https://peterlubrich.github.io/spsDCAT-AP/vocabularies/spsFunction#Navigationtofreeparkingspaces"/>
+  		<dcat:landingPage rdf:resource="http://docs.inrix.com/parking/blocks/"/>
+  		<dct:spatial>
+  			<locn:Address>
+  				<locn:adminUnitL1 rdf:resource="http://nuts.geovocab.org/id/DEA23.html"/>
+  			</locn:Address>
+  			<dcatsps:parkingsegment rdf:resource="https://www.mdm-portal.de/dcat-apsps/def/parkingsegment/OnStreet"/>
+  			<dcatsps:parkingsegment rdf:resource="https://www.mdm-portal.de/dcat-apsps/def/parkingsegment/Public"/>
+  		</dct:spatial>
+  		<dcterms:temporal>
+  			<dct:PeriodOfTime>
+  				<spsdcatap:temporalscope rdf:resource = "https://peterlubrich.github.io/spsDCAT-AP/vocabularies/temporalScope#realtime"/>
+  				<spsdcatap:temporalscope skos:prefLabel = " https://peterlubrich.github.io/spsDCAT-AP/vocabularies/temporalScope#historic"/>
+  			</dct:PeriodOfTime>
+  		</dcterms:temporal>
+      <dcat:distribution rdf:resource="https://inrix.com/campaigns/sign-up/"/>
+      <napdcatap:networkCoverage rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/functionalroadclasses#Urbanandlocalroads"/>
+      <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+      <dct:accrualPeriodicity rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/frequencies#Upto1h"/>
+      <napdcatap:transportationMode rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/transportationmodes#car">
+      <napdcatap:qualityDescription>https://inrix.com/blog/2018/05/inrix-parking-data-quality/</napdcatap:qualityDescription> <!-- ADDED, napDCAT-AP property no. 3.6 (mandatory) -->
+    </dcat:Dataset>
+
+    <dcat:Distribution rdf:about="https://inrix.com/campaigns/sign-up/">
+        <dcat:accessURL>https://inrix.com/campaigns/sign-up/</dcat:accessURL>
+        <dct:rights rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/accessrights#noLicenseNoContract">
+        <dct:description>To call any of our APIs, you need credentials which can be requested on this page.</dct:description>
+        <dct:format rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/datasyntaxstandards#JSON">
+        <dct:title>INRIX On-Street Parking API</dct:title>
+        <napdcatap:applicationLayerProtocol rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/applicationlayerprotocols#HTTPHTTPS">
+    </dcat:distribution>
+
+</rdf:RDF>
