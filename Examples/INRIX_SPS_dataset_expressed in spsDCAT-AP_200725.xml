@@ -38,7 +38,7 @@ Thus, no liability for correctness or completeness about the referenced data off
     </dcat:Catalog>
 
     <dcat:Dataset rdf:about="http://docs.inrix.com/parking/blocks/">
-  		<dct:title xml:lang="en">INRIX On-Street Parking</dct:title>
+  		<dct:title xml:lang="en">INRIX On-Street Parking</dct:title >
       <dct:description xml:lang="en">The On-Street Parking API is used to return metadata information on one or more city blocks.</dct:description >
       <dct:publisher>
         <foaf:Organization rdf:about="https://inrix.com/">
@@ -79,7 +79,7 @@ Thus, no liability for correctness or completeness about the referenced data off
 
     <dcat:Distribution rdf:about="https://inrix.com/campaigns/sign-up/">
         <dcat:accessURL>https://inrix.com/campaigns/sign-up/</dcat:accessURL>
-        <dct:rights rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/accessrights#noLicenseNoContract">
+        <dct:rights rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/accessrights#ContractAndFreeOfCharge">
         <dct:description>To call any of our APIs, you need credentials which can be requested on this page.</dct:description>
         <dct:format rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/datasyntaxstandards#JSON">
         <dct:title>INRIX On-Street Parking API</dct:title>
